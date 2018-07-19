@@ -21,6 +21,7 @@ Trong phần src chính là các file code cần test:
       Thông thường ném đổ 1 pin được tính 1 điểm. Ví dụ nếu người chơi ném đổ 3 pin trong lần ném đầu tiên và 6 pin trong lần ném thứ 2, số điểm ghi được sẽ là 9 điểm cho frame đó . Nếu ném đổ 9 pin trong lần ném đầu tiên và ném trượt ở lần 2, người chơi cũng sẽ ghi được 9 điểm. Nếu sau 2 lần ném không đổ hết cả 10 pin, người ta gọi là open frame
 
 Điểm thưởng:
+
        <b>Strike:</b> Khi ném đổ tất cả 10 pin trong lần ném đầu tiên (gọi là Strike), người chơi sẽ được thưởng 10 điểm, cộng thêm với điểm thưởng bằng số điểm sẽ đạt được ở frame tiếp theo với 2 lần ném. Có nghĩa là, số điểm của 2 lần ném ở frame tiếp theo sẽ được tính 2 lần. Ví dụ: Frame 1, lần ném thứ nhất: 10 pins (Strike)
             Frame 2, lần ném thứ nhất: 3 pins
             Frame 2, lần ném thứ hai: 6 pins
