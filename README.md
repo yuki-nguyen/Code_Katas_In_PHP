@@ -49,6 +49,6 @@ Trong phần src chính là các file code cần test:
 
       Điểm tối đa có thể đạt được cho 1 game bowling 10 pin là 300 (12 Strikes – Perfect Game )
       
-    -4: String Caculators:
+  - 4: String Caculators:
       Cộng các số trong chuỗi với nhau định dạng chuỗi: "1,2, ...." Cho phép có \n hay khoảng trắng ở trong chuỗi, nếu số lớn hơn 1000
         thì bỏ qua số đó, không cộng nó vào
