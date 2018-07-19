@@ -37,7 +37,8 @@ Trong phần src chính là các file code cần test:
             Frame 2, lần ném thứ nhất: 10 pins (Strike)
             Frame 3, lần ném thứ nhất: 4 pins
             Frame 3, lần ném thứ hai: 2 pins
-      Tổng số điểm sẽ bằng: Frame 1: 10 + (10 + 4)= 24Frame 2: 10 + (4 + 2) = 16Frame 3: 4 + 2 = 6Tổng = 46Số điểm lớn nhất có thể ghi trong 1 frame là 30 điểm (trong đó 10 điểm cho quả Strike, đầu tiên cộng thêm số điểm của 2 quả Strike liên tiếp trong 2 frame tiếp theo).Khi ném được Strike ở frame số 10 (last frame), người chơi sẽ được thêm 1 lần ném để có thể đạt điểm thưởng. Nếu 2 lần ném cuối cùng đểu là Strike, frame đó sẽ được tính tổng cộng là 30 điểm (10 + 10 + 10). Đây chỉ là điểm thưởng cho quả Strike đạt được ở frame cuối cùng, bản thân điểm đó không được tính.
+      Tổng số điểm sẽ bằng: Frame 1: 10 + (10 + 4)= 24Frame 2: 10 + (4 + 2) = 16Frame 3: 4 + 2 = 6Tổng = 46Số điểm lớn nhất có thể ghi trong 1 frame là 30 điểm (trong đó 10 điểm cho quả Strike, đầu tiên cộng thêm số điểm của 2 quả Strike liên tiếp trong 2 frame tiếp theo).Khi ném được Strike ở frame số 10 (last frame), người chơi sẽ được thêm 1 lần ném để có thể đạt điểm thưởng. Nếu 2 lần ném cuối cùng đểu là Strike, frame đó sẽ được tính tổng cộng là 30 điểm (10 + 10 + 10).
+      Đây chỉ là điểm thưởng cho quả Strike đạt được ở frame cuối cùng, bản thân điểm đó không được tính.
 
       <b>Spare:</b> Người chơi sẽ được thưởng quả “Spare” khi ném đổ hết pin ở lần ném thứ 2, tức là ném đổ hết 10 pin sau hai lần ném. Đạt được Spare sẽ được thưởng 10 điểm cộng với điểm thưởng bằng số điểm bất kỳ ghi được ở lần ném tiếp theo (Chỉ tính lần ném đầu tiên)
       Ví dụ:
