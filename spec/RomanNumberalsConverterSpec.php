@@ -79,4 +79,8 @@ class RomanNumberalsConverterSpec extends ObjectBehavior
     {
         $this->convert(4990)->shouldReturn('MMMMCMXC');
     }
+    function it_takes_exception_with_zero()
+    {
+        $this->shouldThrow('InvalidArgumentException')->duringConvert(0);
+    }
 }

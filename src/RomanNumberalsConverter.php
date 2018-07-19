@@ -23,19 +23,12 @@ class RomanNumberalsConverter
         $roman_number = '';
 
         //act
+        $this->guardAgainstInvalidNumber($number);
         foreach (static::$lookup_array as $decimal => $roman){
             while ($number >= $decimal ){
                 $roman_number .= $roman;
                 $number -= $decimal;
             }
-        }
-
-        try {
-            $number = 0;
-            throw new Exception($number);
-        }
-        catch (Exception $e) {
-            echo "Roman number do not include number 0";
         }
 
         return $roman_number;
